@@ -1,0 +1,110 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+/*	general	*/
+
+section{
+    padding: 50px 0;
+}
+
+body {
+    background: linear-gradient(to right, #ff3300, #eeff00);
+    margin: 0;
+    padding: 0;
+    font-family: 'share_techregular';
+    color: #ffffff;
+  }
+
+
+/*	gallery */
+
+.gallery-title{
+    font-size: 100px;
+    color: #000000;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+    font-family: 'share_techregular';
+}
+.filter-button{
+    font-size: 18px;
+    border: 2px solid #000000;
+	padding:5px 10px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+	background:transparent;
+}
+.filter-button:hover,
+.filter-button:focus,
+.filter-button.active{
+    color: #ffffff;
+    background-color:#000000;
+	outline:none;
+}
+.gallery_product{
+    margin: 0px;
+	padding:0;
+	position:relative;
+}
+.gallery_product .img-info{
+	position: absolute;
+    background: rgba(0,0,0,0.5);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+	overflow:hidden;
+	color:#fff;
+	top:0;
+	display:none;
+	   -webkit-transition: 2s;
+    transition: 2s;
+}
+
+.gallery_product:hover .img-info{
+	display:block;
+   -webkit-transition: 2s;
+    transition: 2s;
+}
+
+footer {
+    background-color: rgba(44, 44, 44, 0.603);
+  }
+
+  .flex {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+  }
+
+  .flex ul {
+    list-style: none;
+  }
+
+  .flex > div {
+    width: 223px;
+  }
+
+  footer .footer-rights {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 23px 0;
+  }
+
+  footer ul li a {
+    text-decoration: none;
+    color: aliceblue;
+  }
+
+/*	end gallery */
+@font-face {
+    font-family: 'share_techregular';
+    src: url('/Assets/sharetech-regular-webfont.woff2') format('woff2'),
+         url('/Assets/sharetech-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
